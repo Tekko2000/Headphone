@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+body{
+    margin: 0;
+    background: #2e2e2e;
+    font-family:'Work Sans' ;
+}
+a,p{
+    color:rgb(115,115,115);
+    text-decoration:none;
+}
+h1{
+    color:#ebccc2;
+    margin: 0;
+    font-weight: 300;
+}
+h2{
+    color:#ebccc2;
+    font-weight:300;
+    font-size:27px;
+    word-spacing: 4px;
+}
+p{
+    font-size: 20px;
+    font-weight:200;
+    margin: 0;
+    line-height: 35px;
+}
+/* ANFANG HEADER */
+
+#header{
+    position:fixed;
+    display:flex;
+    align-items:baseline;
+}
+header > img{
+    padding:30px 0 0 60px;
+}
+#headnav{
+    display: flex;
+}
+#headnav > ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    width: 2000px;
+    padding-left: 50%;
+}
+#headnav > ul > li > a{
+    font-size:17px;
+    transition: color 1.5s ease-out;
+}
+#headnav > ul > li > a:hover {
+    color:rgb(234,204,194);
+    text-decoration: underline;
+}
+#headnav > ul > li:nth-of-type(5){
+    padding:0 0 0 120px;
+}
+#headnav > ul > li:nth-of-type(4){
+    padding-left: 20px;   
+}
+#headnav > ul > li:nth-of-type(3){
+    padding-left: 20px;  
+}
+#headnav > ul > li:nth-of-type(2){
+    padding-left: 20px;
+}
+#headnav > ul > li:nth-of-type(1){
+    padding-right:80px;
+}
+
+/* ENDE HEADER */
+
+/* ANFANG SECTION 1 */
+
+#sec1 > h1{
+    font-size: 60px;
+    text-align: left;
+    padding:10% 40% 0 25%;
+}
+#sec1 > img{
+    padding:9% 5% 0 5%;
+}
+#secnav > ul{
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    top:200px;
+    left:3%;
+}
+#secnav > ul > li:nth-of-type(1):before{
+    content:"\25CE";
+    color:rgb(115,115,115);
+    font-size: 40px;
+    position:fixed;
+    top: 280px;
+    left:1.5%;
+}
+#secnav > ul > li:nth-of-type(2):before{
+    content:"\25CE";
+    color:rgb(115,115,115);
+    font-size: 40px;
+    position:fixed;
+    top: 400px;
+    left:1.5%;
+}
+#secnav > ul > li:nth-of-type(3):before{
+    content:"\25CE";
+    color:rgb(115,115,115);
+    font-size: 40px;
+    position:fixed;
+    top: 520px;
+    left:1.5%;
+}
+#secnav > ul > li:nth-of-type(4):before{
+    content:"\25CE";
+    color:rgb(115,115,115);
+    font-size: 40px;
+    position:fixed;
+    top: 640px;
+    left:1.5%;
+}
+#secnav > ul > li:nth-of-type(5):before{
+    content:"\25CE";
+    color:rgb(115,115,115);
+    font-size: 40px;
+    position:fixed;
+    top: 755px;
+    left:1.5%;
+}
+
+#secnav ul > li > a{
+    display: block;
+    padding-top: 100%;
+}
+.span:nth-of-type(1){
+    width: 70px;
+    height:2px;
+    background:rgb(115,115,115);
+    display: inline-block;
+    transform: rotate(90deg);
+    position:fixed;
+    top:370px;
+    left:0.75%;
+}
+span:nth-of-type(2){
+    width: 70px;
+    height:2px;
+    background:rgb(115,115,115);
+    display: inline-block;
+    transform: rotate(90deg);
+    position:fixed;
+    top:485px;
+    left:0.75%;
+}
+span:nth-of-type(3){
+    width: 70px;
+    height:2px;
+    background:rgb(115,115,115);
+    display: inline-block;
+    transform: rotate(90deg);
+    position:fixed;
+    top:605px;
+    left:0.75%;
+}
+span:nth-of-type(4){
+    width: 70px;
+    height:2px;
+    background:rgb(115,115,115);
+    display: inline-block;
+    transform: rotate(90deg);
+    position:fixed;
+    top:715px;
+    left:0.75%;
+}
+span:nth-of-type(5){
+    width: 70px;
+    height:2px;
+    background:rgb(115,115,115);
+    display: inline-block;
+    transform: rotate(90deg);
+    position:fixed;
+    top:365px;
+    left:0.75%;
+}
+.active, .side:hover {
+    color:#ebccc2;
+}
+
+/* ENDE SECTION 1 */
+
+/* ANGANG SECTION 2 */
+#sec2{
+    display:flex;
+}
+#sec2 img{
+    padding:2% 0 7% 13%;
+}
+#sec2 h1{
+    font-size:60px;
+    word-spacing: 10px;
+    padding: 15% 0 0 10%
+}
+#sec2 p{
+    padding:2% 38% 0 10.5%;
+}
+
+/* THE LOUNGER BEGINN */
+/* ANFANG SECTION 3 */
+
+#sec3{
+    display: flex;
+}
+#sec3 h1{
+    font-size:60px;
+    padding:25% 0 0 13%;
+}
+#sec3 p{
+    padding:10% 27% 0 13%;
+}
+
+/* THE LOUNGER ENDE */
+
+/* ANGANG THE EXPERIENCE */
+/* ANFANG SECTION 4 */
+
+#sec4{
+    display:flex;
+}
+#sec4 h1{
+    font-size:60px;
+    padding:25% 0 0 13%;
+}
+#sec4 p{
+    padding:8% 30% 0 13%;
+}
+
+/* ENDE THE EXPERIENCE */
+
+/* ANFANG SHOP */
+/* ANFANG SECTION 5 */
+
+#sec5{
+    display: flex;
+}
+#sec5 > div > img{
+    padding:8em 0 0 15.5em;
+}
+#sec5 > div > h1{
+    font-size:35px;
+    padding-left:57%;
+    word-spacing: 10px;
+}
+.underHP {
+    display:block;
+    text-align:center;
+    padding-left:37%;
+}
+.buyBtn{
+    display:inline-block;
+    background:#ebccc2;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* ANFANG INSPIRATION */
+/* VIDEO */
+
+video{
+    padding-top:10%;
+    padding-left: 18%;
+}
+
+/* ANFANG SECTION 6 INSPIRATION */
+
+#sec6{
+    padding-left:17%;
+    padding-top: 10%;
+}
+#sec6 > h1{
+    font-size:42px;
+    word-spacing:5px;
+    padding-bottom: 60px;
+}
+#sec6 p{
+    word-spacing:5px;
+}
+.SDC {
+    display: flex;
+    padding-bottom: 12px;
+}
+.SDC > div:nth-of-type(1){
+    padding:5px 5px;
+    border:2px solid #fff;
+    margin-right: 7px;
+    border-radius:4px;
+}
+.SDC > div:nth-of-type(2){
+    padding:5px 5px;
+    border:2px solid #fff;
+    margin-right: 7px;
+    border-radius:4px;
+}
+.SDC > div:nth-of-type(3){
+    padding:5px 5px;
+    border:2px solid #fff;
+    border-radius:4px;
+}
+
+/* ENDE SECTION 6 INSPIRATION */
+
+/* ANFANG SECTION 7 INSPIRATION */
+
+#sec7{
+    display: flex;
+    padding:15% 0 0 16%;
+}
+.sec7div{
+    padding:7% 0 0 3%;
+}
+.sec7div > h1{
+    font-size:45px;
+    word-spacing:5px;
+    padding-bottom: 40px;
+}
+.sec7div > p{
+    padding-right: 55%;
+    line-height: 35px;
+}
+
+/* ENDE SECTION 7 INSPIRATION */
+
+/* ANFANG SECTION 8 INSPIRATION */
+
+#sec8{
+    display: flex;
+}
+#sec8 > img{
+    margin-right: 24.5%;
+    padding-bottom: 10%;
+}
+.sec8div > h2{
+    padding:10% 0 0 37%;
+}
+.sec8div h1{
+    font-size:45px;
+    word-spacing:5px;
+    padding-left: 37%;
+    padding-bottom: 40px;
+}
+.sec8div p{
+    padding-left: 37%;
+    padding-right: 10%;
+    line-height: 35px;
+}
+
+/* ENDE SECTION 8 INSPIRATION */
+
+/* ANFANG SECTION 9 NEWSLETTER */
+
+#sec9 > div{
+    text-align: center;
+    padding-top: 15%;
+}
+#sec9 > div > h1{
+    font-size:40px;
+}
+#sec9 > div > h2{
+    font-size:20px;
+}
+#sec9 > form{
+    padding-top: 20px;
+    text-align: center;
+}
+#sec9 > form > input{
+    color:rgb(115,115,115);
+    font-size:18px;
+    padding:10px 100px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+#sec9 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+#sec9 > h1 > a{
+    text-decoration:underline;
+}
+#sec9 > h1 > a:hover{
+    color: #ebccc2;
+    transition:1s;
+}
